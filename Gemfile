@@ -34,6 +34,7 @@ end
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.12.2'
+  gem 'spork-rails', :github => 'sporkrb/spork-rails'
 end
 
 group :test do

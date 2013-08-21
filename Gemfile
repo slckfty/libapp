@@ -38,7 +38,8 @@ group :development, :test do
 end
 
 group :test do
-  gem 'cucumber-rails', '~> 1.3.0', require:false
+  gem 'cucumber',  '1.2.5'
+  gem 'cucumber-rails', '1.3.0', :require => false
   gem 'database_cleaner', '~> 0.9.1'
 end
 # Use ActiveModel has_secure_password

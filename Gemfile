@@ -59,3 +59,4 @@ gem 'pry'
 gem 'pry-doc'
 
 gem 'email_validator'
+gem 'active_attr'

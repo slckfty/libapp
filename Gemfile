@@ -60,3 +60,5 @@ gem 'pry-doc'
 
 gem 'email_validator'
 gem 'active_attr'
+gem 'bcrypt-ruby', '~> 3.0.0'
+

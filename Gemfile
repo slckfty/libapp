@@ -41,6 +41,7 @@ group :test do
   gem 'cucumber'
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
+  gem 'shoulda-matchers'
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -56,3 +57,5 @@ end
 
 gem 'pry'
 gem 'pry-doc'
+
+gem 'email_validator'
